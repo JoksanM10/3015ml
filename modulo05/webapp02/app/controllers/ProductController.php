@@ -1,6 +1,8 @@
 <?php
+
 include_once 'app/models/ProductModel.php';
 include_once 'app/config/Database.php';
+
 class ProductController {
     private $productModel;
 

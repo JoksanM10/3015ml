@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Página de Inicio</title>
-    
+        
     <?php
         require_once "public/html_header.php";
     ?>
@@ -13,13 +13,18 @@
     <div class="container">
         
         <header>
-            <h1>Bienvenido a Nuestra Aplicación</h1>
-            <nav>
-                <ul>
-                    <li><a href=".">Ver Usuarios</a></li>
-                    <!-- Más enlaces de navegación según sea necesario -->
-                </ul>
-            </nav>
+        <h1>Bienvenido a Nuestra Aplicación</h1>
+        <nav>
+            <ul>
+                <li><a href=".">Ver Usuarios</a></li>
+            </ul>
+            <ul>
+                <li><a href="./index.php?url=product/index">Ver Productos</a></li>
+            </ul>
+            <ul>
+                <li><a href="./index.php?url=supplier/index">Ver Suplidores</a></li>
+            </ul>
+        </nav>
         </header>
     
         <main>
@@ -51,7 +56,7 @@
         </main>
     
         <footer>
-            <p>&copy; 2023 Tu Nombre</p>
+            <p>&copy; 2023 Joksan M Millet Rivera</p>
         </footer>
 
     </div>
